@@ -94,7 +94,7 @@
       return `${pick(openings)} Yo, what's good? ${pick(closers)}`;
     }
     if(intent === 'who'){
-      return `${pick(openings)} They call me RAPBOT — hype, roast, rhyme. I'm the plug for spicy comebacks. ${pick(closers)}`;
+      return `${pick(openings)} They call me NiggaBot — hype, roast, rhyme. I'm the plug for spicy comebacks. ${pick(closers)}`;
     }
     if(intent === 'roast'){
       return `${pick(openings)} ${pick(roasts)} ${pick(closers)}`;
