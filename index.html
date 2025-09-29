@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>NiggaBot — Chat</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="app">
+    <div class="stage">
+      <div class="card">
+        <header class="card-header">
+          <div class="badge">
+            <div class="vinyl" aria-hidden="true"></div>
+            <div class="title">
+              <div class="name">RAPBOT</div>
+              <div class="sub">swagger • roast • hype</div>
+            </div>
+          </div>
+          <div class="status">online</div>
+        </header>
+
+        <div id="chat" class="chat" role="log" aria-live="polite"></div>
+
+        <form id="composer" class="composer" autocomplete="off" onsubmit="return false;">
+          <input id="input" class="input" placeholder="Say something... (be clever)" />
+          <button id="send" class="send" aria-label="Send">🔥</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- subtle floating decor -->
+    <div class="floaters">
+      <div class="circle c1"></div>
+      <div class="circle c2"></div>
+      <div class="circle c3"></div>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
